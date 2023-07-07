@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Raleway');
+
+body{
+	font-family: 'Raleway',serif;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+#nav_bar{
+	margin-bottom: 0;
+	padding: 0;
+	background-color:#fff;
+	border: none;
+	z-index: 10000;
+	/*position: absolute;*/
+}
+canvas {
+	display: block;
+	margin: 0 auto;
+	width: 600px;
+	height: 500px;
+	margin-top: 20px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.app-name{
+	color: rgb(22, 21, 21) !important;
+	font-size: 2.1em;
+	font-weight: bolder;
+	transition: all 0.3s;
+}
+#nav_list li a{
+	color: rgb(22, 21, 21);
+	font-weight: bolder;
+	font-size: 2.1em; 
+}
+
+ .btn{
+	 border-radius: 400px;
+   color: white;
+	 border-color: white;
+	 background-color: #0e0e0e;
+	 padding: 1px 28px;
+	 transition: 0.55s;
+	 text-align: center;
+	 margin-bottom: 30px;
+
+ }
+ .btn:hover{
+	 color: rgb(10, 10, 10);
+	 background-color: white;
+ }
+ .text-center{
+	 color: white;
+	 margin-bottom: 30px;
+ }
+ .form-control{
+	 border-radius: 300px;
+	 color: black;
+	 
+ }
+ 
+#logo{
+	max-height: 42px;
+	margin-right: 8px;
+	display: inline-block;
+	margin-top: -15px;
+}
+
+#headRow{
+	background-image: url('https://unsplash.it/1200?image=1056');
+	background-size: cover;
+	top: 0; bottom: 0;
+    position: absolute;
+    width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+
+#tagline{
+	color: black;
+	padding-top: 4%;
+	font-size: 2.3em;
+}
+#tagline-2{
+	color: black;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	font-family: 'Indie Flower',cursive;
+	font-size: 2em;
+}
+
+ul#list_inline{
+	color: black;
+	font-size: 1.8em;
+	text-align: center;
+
+}
+
+.jumbo h2{
+	font-size: 2.2em;
+	font-weight: lighter;
+	text-align: center;
+}
+
+#city{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+.jumbo{
+	margin-bottom: 0px;
+	background-color: black;
+	color: white;
+}
+input[type='text'],#submitCity{
+	margin-bottom: 20px;
+	height: 1.8em;
+	font-size: 1.6em;
+}
+
+label{
+	font-size: 1.6em;
+	margin-top: 2%;
+	color: white;
+	margin-bottom: 20px;
+}
+table{
+	font-size: 1.6em;
+}
+
+#weather-data{
+	min-width:200px;
+	background-color: black;
+	color:white;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 1.6em;
+
+}
+
+#weather-data h3{
+	padding-top: 3%;
+}
+#weather-data p:last-child{
+	padding-bottom: 3%;
+}
+
+
+  
+  @-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+.blink{
+	color: black;
+	font-weight: lighter;
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+}
+
+
